@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="temp" class="marg">
+            <label id="tempmargin">Enter the temprature:</label> <br>
+            <!-- <input type="text" id="textBox"> <br> -->
+            <div class="Wrapper">
+                <div class="Input">
+                  <input type="number" id="textBox" class="Input-text" placeholder="Temprature, e.g. 26">
+                </div>
+              </div>
+        </div>
+        
+
+        <label class="marg">Convert to:</label> <br>
+        <div id="cel" class="marg">
+            <input type="radio" id="cButton" name="unit">
+            <label for="cButton">Celcius</label> <br>
+        </div>
+        <div id="far" class="marg">
+            <input type="radio" id="fButton" name="unit">
+            <label for="fButton">Fahrenhite</label> <br>
+        </div>
+        
+        <button type="button" id="submitButton">Submit</button> <br>
+        <label id="tempLabel"></label>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
